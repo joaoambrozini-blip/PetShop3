@@ -1,0 +1,91 @@
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 48px;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.botao-equipe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 215px;
+    height: 35px;
+
+    margin-bottom: 52px;
+
+    background-color: #2295a0;
+    color: white;
+
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+
+    border-radius: 5px;
+    margin-bottom: 150px;
+}
+
+.equipe {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.card {
+    width: 30%;
+    height: 341px;
+
+    padding: 10px;
+
+    background-color: #ce7919;
+    border-radius: 3px;
+
+    flex-shrink: 0;
+}
+
+.card img {
+    display: block;
+
+    width: 100%;
+    height: 152px;
+
+    object-fit: contain;
+    background-color: #eeeeee;
+}
+
+.informacoes {
+    width: 100%;
+    height: 137px;
+
+    margin-top: 15px;
+    padding: 12px 15px;
+
+    background-color: #2295a0;
+    color: white;
+
+    text-align: center;
+    border-radius: 3px;
+}
+
+.informacoes h2 {
+    margin: 0 0 30px;
+
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.informacoes p {
+    margin: 0;
+
+    font-size: 11px;
+    line-height: 15px;
+}

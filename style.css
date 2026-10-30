@@ -1,0 +1,163 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #222222;
+}
+
+.cabecalho {
+    height: 70px;
+    width: 100%;
+    background-color: #24939c;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 8.8%;
+    position: relative;
+}
+
+.logo img {
+    width: 135px;
+    height: auto;
+    display: block;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #173d40;
+    font-size: 11px;
+
+    border: 1px solid #21858d;
+    border-radius: 20px;
+    padding: 5px 16px;
+}
+
+.menu a:hover {
+    background-color: #ffffff;
+}
+
+.conteudo {
+    width: 100%;
+    height: 379px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 8.6%;
+    gap: 36px;
+    margin-top: 105px;
+}
+
+.texto {
+    width: 52%;
+    flex-shrink: 0;
+}
+
+.politica {
+    width: 100%;
+    min-height: 132px;
+
+    background-color: #cc7818;
+    color: #ffffff;
+
+    border-radius: 10px;
+    padding: 21px 29px;
+}
+
+.politica h1 {
+    font-size: 12px;
+    font-weight: normal;
+    margin-bottom: 19px;
+}
+
+.politica p {
+    font-size: 10px;
+    line-height: 1.45;
+}
+
+.descricao {
+    margin-top: 31px;
+    padding: 10px;
+
+    text-align: center;
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+.imagem {
+    width: 44%;
+    height: 248px;
+
+    background-color: #cc7818;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    flex-shrink: 0;
+}
+
+.imagem img {
+    position: absolute;
+
+    width: 110%;
+    max-width: 420px;
+    max-height: 300px;
+
+    height: auto;
+    object-fit: contain;
+
+    bottom: -45px;
+}
+
+.rodape {
+    width: 100%;
+    height: 65px;
+
+    background-color: #24939c;
+    color: #ffffff;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 8.8%;
+    gap: 20px;
+    margin-top: 110px;
+}
+
+.logo-rodape img {
+    width: 135px;
+    height: auto;
+    display: block;
+}
+
+.frase {
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+}
+
+.contato {
+    font-size: 10px;
+    line-height: 1.5;
+    text-align: center;
+}
+
